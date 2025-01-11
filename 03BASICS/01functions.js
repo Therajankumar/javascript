@@ -30,4 +30,41 @@ return
     return`${username} just logged in `
 }
 // console.log(loginusermsg("rajan"))
-console.log(loginusermsg())
+//console.log(loginusermsg())
+
+
+
+// function calculatecartprice(num1){
+//     return num1
+// }
+// console.log(calculatecartprice(400))
+
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
+
+// console.log(calculateCartPrice(200, 400, 500, 2000))
+
+const user ={
+    username:"rajan",
+    prices:999
+}
+
+function handleobject(anyobject){
+    console.log(`username is ${ anyobject.username} and price is ${anyobject.prices}`);
+
+}
+// handleobject(user)
+
+handleobject({
+    username:"sam",
+    prices:399
+})
+
+const mynewarray=[200,300,400,600]
+
+function returnsecondvalue(getarray){
+    return getarray[1]
+}
+console.log(returnsecondvalue([200,300,400,600]));
+
